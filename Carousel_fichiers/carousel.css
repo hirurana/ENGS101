@@ -8,6 +8,10 @@ body {
   color: #5a5a5a;
 }
 
+a.btn-secondary{
+  background-color: #f3b20a;
+}
+
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
