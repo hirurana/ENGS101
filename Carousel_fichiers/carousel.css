@@ -10,7 +10,13 @@ body {
 
 a.btn-secondary{
   background-color: #f3b20a;
+  border-color: #f3b20a;
 }
+
+.bg-dark{
+  background-color: #000000!important;
+}
+
 
 
 /* CUSTOMIZE THE CAROUSEL
