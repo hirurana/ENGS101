@@ -22,6 +22,10 @@ a.link{
   background-color: #000000!important;
 }
 
+.current {
+  color: #f3b20a;
+}
+
 
 
 /* CUSTOMIZE THE CAROUSEL
