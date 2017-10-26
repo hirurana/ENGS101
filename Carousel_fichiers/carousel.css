@@ -22,6 +22,10 @@ a.link{
   background-color: #000000!important;
 }
 
+.current {
+  color: #f3b20a;
+}
+
 
 
 /* CUSTOMIZE THE CAROUSEL
@@ -35,6 +39,15 @@ a.link{
 .carousel-caption {
   z-index: 10;
   bottom: 3rem;
+}
+
+.carousel-inner > .item {
+    position: relative;
+    display: none;
+    -webkit-transition: 3s ease-in-out left;
+    -moz-transition: 3s ease-in-out left;
+    -o-transition: 3s ease-in-out left;
+    transition: 3s ease-in-out left;
 }
 
 /* Declare heights because of positioning of img element */
