@@ -23,7 +23,7 @@ a.link{
 }
 
 .current {
-  color: #f3b20a;
+  color: #f3b20a!important;
 }
 
 
