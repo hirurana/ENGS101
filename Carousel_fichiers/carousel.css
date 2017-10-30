@@ -18,6 +18,11 @@ a.link{
   text-decoration: none;
 }
 
+a.researchLinks {
+  color: #5a5a5a;
+  text-decoration: none;
+}
+
 .bg-dark{
   background-color: #000000!important;
 }
