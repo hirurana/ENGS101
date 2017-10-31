@@ -31,6 +31,10 @@ a.researchLinks {
   color: #f3b20a!important;
 }
 
+.resize {
+    width: 100%;
+    height: auto;
+}
 
 
 /* CUSTOMIZE THE CAROUSEL
@@ -66,8 +70,8 @@ a.researchLinks {
   left: 0;
   min-width: 100%;
   height: 32rem;
+  object-fit: contain;
 }
-
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -122,4 +126,44 @@ a.researchLinks {
   .featurette-heading {
     margin-top: 3rem;
   }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    .slider-size {
+        height: auto;
+    }
+    .slider-size > img {
+         width: 80%;
+    }
+}
+
+/* tablets */
+@media (max-width: 991px) and (min-width: 768px) {
+    .slider-size {
+        height: auto;
+    }
+    .slider-size > img {
+        width: 80%;
+    }
+}
+
+/* laptops */
+@media (max-width: 1023px) and (min-width: 992px) {
+    .slider-size {
+         height: 200px;
+    }
+    .slider-size > img {
+        width: 80%;
+    }
+}
+
+/* desktops */
+@media (min-width: 1024px) {
+    .slider-size {
+        height: 300px;
+    }
+    .slider-size > img {
+        width: 60%;
+    }
 }
